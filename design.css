@@ -169,12 +169,12 @@ body {
 
 /* ======= product start ======= */
 .product_section{
-  margin: 100px 0px 100px 0px;
+  margin: 150px 0px 100px 0px;
 }
 .product_section > h2{
   font-size: 50px;
   font-weight: 500;
-  margin-bottom: 110px;
+  margin-bottom: 90px;
   text-align: center;
   font-family: var(--heading-font);
 }
@@ -373,4 +373,15 @@ body {
 }
 /* ====== footer section end ====== */
 
-/* ====== 1200px ===== */
+/* ======== 1200px ========= */
+@media (max-width: 1300px) {
+  .navbar{
+    padding: 20px 20px;
+  }
+}
+/* ======== 900px ========= */
+@media (max-width: 1300px) {
+  .navbar{
+    padding: 20px 20px;
+  }
+}

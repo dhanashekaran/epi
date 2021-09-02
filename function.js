@@ -1,5 +1,4 @@
-const scriptURL =
-"https://script.google.com/macros/s/AKfycbwAIZHWfRbEKaGSXYlWqMc9Jg9dDmVeX-dG8JwgJFWM42PsaPnS4y0t2G9YfX0Rj1uU/exec";
+const scriptURL ="https://script.google.com/a/macros/selfinstaller.com/s/AKfycby60nttx9cVVo60moynDBl3vX7rFoCnWbP3wyzSQFqC01CJWWwhOn4Mxd4ISX7UhM2c/exec";
 const form = document.forms["quotation_form"];
 
 form.addEventListener("submit", (e) => {

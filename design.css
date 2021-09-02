@@ -29,24 +29,24 @@ body {
   margin: 20px auto;
   font-family: var(--heading-font);
 }
-.navbar > .logo {
+.navbar  .logo {
   display: flex;
 }
-.navbar > .logo > svg {
+.navbar .logo svg {
   width: 45px;
   height: auto;
 }
-.navbar > .logo > p {
+.navbar .logo p {
   font-size: 28px;
   font-weight: 500;
   margin: auto 0px auto 10px;
 }
-.navbar > .links {
+.navbar .links {
   display: flex;
   width: 600px;
   justify-content: space-evenly;
 }
-.navbar > .links > a {
+.navbar .links a {
   font-size: 18px;
   font-family: var(--body-font);
   font-weight: 500;
@@ -54,19 +54,19 @@ body {
   color: #727272;
   margin: auto 0px;
 }
-.navbar > .links > a:hover {
+.navbar .links a:hover {
   color: #000;
 }
-.navbar > .social_media {
+.navbar .social_media {
   display: flex;
   justify-content: space-between;
   width: 90px;
 }
-.navbar > .social_media > svg{
+.navbar .social_media svg{
   width: 30px;
   height: auto;
 }
-.navbar > .social_media > svg rect{
+.navbar .social_media svg rect{
   fill: var(--blue-color);
 }
 /* ======= navbar end ======= */
@@ -76,7 +76,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.header_container > .column_1 > h1{
+.header_container .column_1 h1{
   color: var(--blue-color);
   font-size: 50px;
   font-weight: 500;
@@ -84,12 +84,12 @@ body {
   margin-bottom: 15px;
   font-family: var(--heading-font);
 }
-.header_container > .column_1 > p{
+.header_container .column_1 p{
   font-size: 25px;
   margin-bottom: 80px;
   font-family: var(--body-font); 
 }
-.header_container > .column_1 > div > a{
+.header_container .column_1 > div a{
   text-decoration: none;
   padding: 15px 23px;
   color: #fff;
@@ -99,7 +99,7 @@ body {
   font-family: var(--heading-font);
   border-radius: 10px;
 }
-.header_container > .column_1 > div > .btn_2{
+.header_container .column_1 > div .btn_2{
   color: var(--orange-color);
   background-color: #fff;
   box-shadow: 0px 1px 6px 0px rgb(211 211 211);
@@ -122,12 +122,12 @@ body {
   text-align: center;
   font-family: var(--heading-font);
 }
-.service_section > .service_container{
+.service_section .service_container{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
-.service_section > .service_container > article{
+.service_section .service_container > article{
   border-radius: 10px;
   max-width: 410px;
   height: 350px;
@@ -137,33 +137,21 @@ body {
   margin-top: 25px;
   margin-bottom: 25px;
 }
-.service_section > .service_container > article:hover{
+.service_section .service_container > article:hover{
   box-shadow: 0px 1px 20px 1px rgb(0, 73, 133);
 }
-.service_section > .service_container > article > img{
+.service_section .service_container > article img{
   width: 180px;
   height: auto;
 }
-.service_section > .service_container > article > h3{
+.service_section .service_container > article h3{
   margin-bottom: 10px;
   font-family: var(--heading-font);
   font-size: 20px;
   font-weight: 600;
 }
-.service_section > .service_container > article > p{
+.service_section .service_container > article p{
   color: #464646;
-}
-.service_section > .service_container > article > a{
-  padding: 7px 15px;
-  background-color: var(--blue-color);
-  text-decoration: none;
-  font-size: 20px;
-  color: var(--white-color);
-  border-radius: 10px;
-  font-family: var(--heading-font);
-}
-.service_section > .service_container > article > a:hover{
-  background-color: #0084db;
 }
 /* ======= services end ======= */
 
@@ -178,22 +166,22 @@ body {
   text-align: center;
   font-family: var(--heading-font);
 }
-.product_section > .product_container > .product_1{
+.product_section .product_container .product_1{
   display: flex;
   justify-content: space-evenly;
 }
-.product_section > .product_container > .product_1 > img{
+.product_section .product_container .product_1 img{
   width: 480px;
   height: auto;
 }
-.product_section > .product_container > .product_1 > .product_1_info{
+.product_section .product_container .product_1 .product_1_info{
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
   width: 520px;
 }
-.product_section > .product_container > .product_1 > .product_1_info > h3{
+.product_section .product_container .product_1 .product_1_info h3{
   font-family: var(--heading-font);
   font-size: 60px;
   font-weight: 600;
@@ -201,15 +189,15 @@ body {
   display: inline-block;
   margin-bottom: 12px;
 }
-.product_section > .product_container > .product_1 > .product_1_info > p{
+.product_section .product_container .product_1 .product_1_info p{
   font-family: var(--body-font);
   font-weight: 600;
   font-size: 20px;
 }
-.product_section > .product_container > .product_1 > .product_1_info > div{
+.product_section .product_container .product_1 .product_1_info > div{
   margin-top: 60px;
 }
-.product_section > .product_container > .product_1 > .product_1_info > div > a{
+.product_section .product_container .product_1 .product_1_info > div a{
   text-decoration: none;
   padding: 10px 18px;
   color: #fff;
@@ -223,17 +211,17 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.product_1_detials > div{
+.product_1_detials div{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.product_1_detials > div > img{
+.product_1_detials div img{
   width: 190px;
   height: auto;
 }
-.product_1_detials > div > p{
+.product_1_detials div p{
   font-family: var(--body-font);
   font-weight: 400;
   font-size: 18px;
@@ -260,41 +248,41 @@ body {
   justify-content: space-evenly;
   align-items: center;
 }
-.quotation_container > h4{
+.quotation_container h4{
   font-size: 50px;
   font-weight: 500;
   text-align: center;
   font-family: var(--heading-font);
   width: 410px;
 }
-.quotation_container > form{
+.quotation_container form{
   background-color: var(--blue-color);
   border-radius: 20px;
   width: 500px;
   padding: 40px 40px;
 }
-.quotation_container > form > label{
+.quotation_container form label{
   font-family: var(--body-font);
   font-size: 20px;
   font-weight: 500;
   color: #fff;
   margin-bottom: 15px;
 }
-.quotation_container > form > input{
+.quotation_container form input{
   display: block;
   width: 100%;
   height: 40px;
   margin: 15px 0px 15px 0px;
   border-radius: 5px;
 }
-.quotation_container > form > textarea{
+.quotation_container form textarea{
   display: block;
   width: 100%;
   height: 150px;
   margin: 15px 0px 0px 0px;
   border-radius: 5px;
 }
-.quotation_container > form > button{
+.quotation_container form button{
   background-color: var(--orange-color);
   color: #fff;
   padding: 10px 35px;
@@ -314,28 +302,28 @@ body {
   background-color: #004696;
   padding: 20px 0px 40px 0px;
 }
-.footer_top > .footer_top_container{
+.footer_top .footer_top_container{
   display: flex;
   justify-content: space-evenly;
   color: #fff;
 }
-.footer_top > .footer_top_container > .column_1 > .logo{
+.footer_top .footer_top_container .column_1 .logo{
   display: flex;
   flex-direction: column;
   margin-bottom: 40px;
 }
-.footer_top > .footer_top_container > .column_1 > .logo > svg{
+.footer_top .footer_top_container .column_1 .logo svg{
   width: 54px;
   height: auto;
   margin-bottom: 10px;
 }
-.footer_top > .footer_top_container > .column_1 > .logo > p{
+.footer_top .footer_top_container .column_1 .logo p{
   font-size: 18px;
   color: #fff;
   font-family: var(--heading-font);
   width: 290px;
 }
-.footer_top > .footer_top_container > .column_1 > .info{
+.footer_top .footer_top_container .column_1 .info{
   font-family: var(--body-font);
   font-size: 17px;
   display: flex;
@@ -343,22 +331,22 @@ body {
   width: 330px;
   justify-content: flex-start;
 }
-.footer_top > .footer_top_container > .column_1 > .info p{
+.footer_top .footer_top_container .column_1 .info p{
   margin-bottom: 10px;
 }
-.footer_top > .footer_top_container > .column_2{
+.footer_top .footer_top_container .column_2{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
-.footer_top > .footer_top_container > .column_2 > a{
+.footer_top .footer_top_container .column_2 a{
   font-family: var(--body-font);
   font-size: 17px;
   text-decoration: none;
   margin: 10px 0px;
   color: #fff;
 }
-.footer_top > .footer_top_container > .column_3 img{
+.footer_top .footer_top_container .column_3 img{
   width: 300px;
   height: auto;
   border-radius: 10px;

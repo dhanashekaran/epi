@@ -4,13 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Episyche</title>
+    <title>Episyche Technologies</title>
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet"/>
     <!-- custom stylesheet -->
     <link rel="stylesheet" href="design.css" />
-  </h`ead>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-206984029-1">
+  </script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-206984029-1');
+  </script>
+  </head>
   <body>
     <!-- Main container -->
     <main class="main_container">
@@ -69,7 +78,7 @@
       <header>
         <div class="container header_container">
           <article class="column_1">
-            <h1>carve the imaginations as a code.</h1>
+            <h1>Code at first sight</h1>
             <p>Please check the services and products that we are providing to the community.</p>
             <div>
               <a class="btn_1" href="#service">Services</a>
@@ -83,7 +92,7 @@
       </header>
       <!-- Services -->
       <section class="service_section" id="service">
-        <h2>Services we provide</h2>
+        <h2>Services</h2>
         <div class="container service_container">
           <!-- Cloud Services -->
           <article>
@@ -131,7 +140,7 @@
       </section>
       <!-- Products -->
       <section class="product_section" id="product">
-        <h2>Products we hand-crafted <br>for you.</h2>
+        <h2>Products</h2>
         <div class="container product_container">
           <article class="product_1">
               <img src="images/config_server.svg" alt="selfinstaller">
@@ -166,11 +175,11 @@
           <h4>Get Quotation For Your Next Project.</h4>
           <form name="quotation_form">
             <label for="name">Name :</label>
-            <input type="text" name="name" id="name">
+            <input type="text" name="name" id="name" required>
             <label for="email">Email Id :</label>
-            <input type="text" name="email" id="email">
+            <input type="text" name="email" id="email" required>
             <label for="message">Project Detials :</label>
-            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            <textarea name="message" id="message" cols="30" rows="10" required></textarea>
             <button type="submit">Send</button>
           </form>
         </div>
@@ -205,7 +214,7 @@
 
             <article class="info">
               <p>Address:</p>
-              <p class="address">First Floor, No.135/1,Palanisamy Towers, Dharamaraj Layout, Owripalayam Road, Ramanathapuram, Coimbatore-641045, Tamil Nadu.</p>
+              <p class="address">First Floor, No.135/1,Palanisamy Towers, Dharamraj Layout, Sowripalayam Cross Road, Ramanathapuram, Coimbatore-641045, Tamil Nadu.</p>
               <p class="mobile">+91 90959 58663</p>
               <p class="email">reach@episyche.com</p>
             </article>
@@ -230,6 +239,6 @@
         </div>
       </section>
     </main>
+    <script src="function.js"></script>
   </body>
-  <script src="function.js"></script>
 </html>
